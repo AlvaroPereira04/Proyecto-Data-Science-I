@@ -46,7 +46,3 @@ Repositorio del proyecto final con **EDA** y **modelo de clasificación** sobre 
   jupyter lab
   ```
 
-## ✅ Notas
-- Fijar `random_state` para reproducibilidad (split y modelo).
-- Documentar la **variable objetivo** y el umbral (si usa `G+A`).
-- Incluir tabla de métricas y matriz de confusión exportadas como imágenes.
