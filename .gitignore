@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Data (mantener solo el CSV crudo)
+data/*.parquet
+data/*.feather
+data/*.xlsx
+data/*.xls
+data/*.zip
+data/*.gz
+data/*.pkl
+!data/Jugadores-Top5Ligas.csv
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / cache
+*.cache
+.cache/
+build/
+dist/
+*.egg-info/
